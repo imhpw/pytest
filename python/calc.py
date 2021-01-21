@@ -4,4 +4,7 @@ class Calc:
         return a + b
 
     def div(self,a,b):
-        return a / b
+        if b==0:
+            return 'zero is not allowed'
+        else:
+            return a / b

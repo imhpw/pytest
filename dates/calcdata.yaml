@@ -1,0 +1,15 @@
+norm:
+  - a: 1
+    b: 2
+    c: 3
+  - a: -1
+    b: 2
+    c: 1
+  - a: -1
+    b: 1
+    c: 0
+except:
+  -
+    a: 123213213213
+    b: 'fdsfds'
+    c: efdsfsd
